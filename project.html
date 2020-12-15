@@ -20,7 +20,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- Primary Meta Tags -->
-<title>JWOC</title>
+<title>PROJECT</title>
 
 
 <!-- Fontawesome -->
@@ -28,17 +28,41 @@
 
 <!-- Pixel CSS -->
 <link type="text/css" href="style.css" rel="stylesheet">
+<link type="text/css" href="stylenav.css" rel="stylesheet">
 
 <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
 
 </head>
 
 <body>
+    <header class="head" >
+        <a href="#" class="logo"><span class="logo-hover"><span class="jgec"><strong>JGEC</strong></span>Winter Of Code</span></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        
+        <ul class="menu">
+            
+            <li><a href="#about"  onclick="toggleMenu();"><span class="links">ABOUT</span></a></li>
+            <li><a href="#register"  onclick="toggleMenu();"><span class="links">REGISTER</span></a></li>
+            <li><a href="#timeline"  onclick="toggleMenu();"><span class="links">TIMELINE</span></a></li>
+            <li><a href="#projects"  onclick="toggleMenu();"><span class="links">PROJECTS</span></a></li>
+            <li><a href="#team"  onclick="toggleMenu();"><span class="links">TEAM</span></a></li>
+            <li><a href="#contact"  onclick="toggleMenu();"><span class="links">CONTACT US</span></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn links" >MORE<span class="fas fa-angle-down nav-link-arrow ml-2"></span></a>
+                <ul class="dropdown-content">
+                  <a href="#">Leaderboard</a>
+                  <a href="#faq">FAQ</a>
+                  <a href="#">Code of Conduct</a>
+                </ul>
+            </li> 
+        </ul>
+    
+    </header>
     
     <main>
         <!-- Hero -->
         
-            <div class="container mb-6 mt-6">
+            <div class="container mb-6 mt-6" id="projects">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-8 text-center">
                         <h1 class="display-2 font-weight-light mb-4">Our <span class="font-weight-bold">Projects</span>
@@ -53,10 +77,10 @@
         <!-- End of Section -->
         <!-- Section -->
         <div class="section section-lg pt-2" >
-            <div class="container" > 
+            <div class="container" class="projects" > 
                 <div class="row align-items-center">
                     
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -86,7 +110,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -116,7 +140,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -146,7 +170,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -176,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -206,7 +230,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -236,7 +260,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -266,7 +290,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -296,7 +320,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -326,7 +350,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -356,7 +380,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -386,7 +410,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -416,7 +440,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -446,7 +470,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -476,7 +500,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -506,7 +530,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -536,7 +560,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -566,7 +590,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -596,7 +620,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -626,7 +650,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -656,7 +680,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 text-center">
+                    <div class="col-md-6 col-lg-4 text-center projectbx">
                         <div class="card bg-primary shadow-soft border-light mb-4">
                             <div class="card-body py-4">
                                 <img src="img/northwestern.svg" class="img-fluid image-sm mb-5" alt="ebay logo">
@@ -700,7 +724,7 @@
 
 
 
- <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light bg-primary">
+ <footer class="d-flex pb-5 pt-6 pt-md-7 border-top border-light bg-primary" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-3 mb-5 mb-lg-0">
@@ -787,7 +811,7 @@
         </div>
     </div>
  </footer>
-
+ <script src="ext.js" language="javascript"></script>
     <!-- Core -->
 
 </body>
