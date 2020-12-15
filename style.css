@@ -757,6 +757,14 @@ pre code {
     flex: 0 0 50%;
     max-width: 50%;
 }
+.projectbx{
+    transition: 1s;
+}
+.projectbx:hover{
+    transform: scale(1.07);
+    
+    z-index: 1.5;
+}
 
 .col-7 {
     flex: 0 0 58.33333%;
@@ -32293,3 +32301,4 @@ article a:hover {
 }
 
 /*# sourceMappingURL=neumorphism.css.map */
+
