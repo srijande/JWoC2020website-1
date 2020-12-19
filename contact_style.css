@@ -15,7 +15,6 @@
 
 */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /*
  * 	Default theme - Owl Carousel CSS File
  */
@@ -89,6 +88,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(38, 40, 51, 0);
 }
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
@@ -755,14 +755,6 @@ pre code {
 .col-6 {
     flex: 0 0 50%;
     max-width: 50%;
-}
-.projectbx{
-    transition: 1s;
-}
-.projectbx:hover{
-    transform: scale(1.07);
-    
-    z-index: 1.5;
 }
 
 .col-7 {
@@ -25755,19 +25747,6 @@ button.section-slack:focus {
 
 .copyright {
     font-size: 0.875rem;
-}
-
-#producthunt-badge {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    z-index: 99;
-}
-
-@media (max-width: 767.98px) {
-    #producthunt-badge {
-        display: none;
-    }
 }
 
 /**
