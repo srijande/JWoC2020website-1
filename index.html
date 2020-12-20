@@ -19,6 +19,31 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    <!--added for timelime-->
+    <style>
+h1 {
+  text-align: center;
+  color: transparent;
+text-shadow: -4px 4px hsla(0, 0%, 70%, .4),
+             -3px 3px hsla(0, 0%, 60%, .2),
+             -2px 2px hsla(0, 0%, 70%, .2),
+             -1px 1px hsla(0, 0%, 70%, .2),
+             0px 0px hsla(0, 0%, 50%, .5),
+             1px -1px hsla(0, 0%, 30%, .6),
+             2px -2px hsla(0, 0%, 30%, .7),
+             3px -3px hsla(0, 0%, 32%, .8),
+             4px -4px hsla(0, 0%, 120%, .9),
+             5px -5px hsla(0, 0%, 30%, 1.0);
+
+}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+<!--upto here for timelime-->
+
+
 <!-- Primary Meta Tags -->
 <title>JWOC</title>
 
@@ -32,29 +57,30 @@
 
 
 
+
 <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
 
 </head>
 
 <body>
     <header class="head" >
-        <a href="index.html" class="logo"><span class="logo-hover"><span class="jgec"><strong>JGEC</strong></span>Winter Of Code</span></a>
+        <a href="index.html" class="logo"><span class="logo-hover"><span class="jgec"><strong>JGEC</strong></span> Winter Of Code</span></a>
         <div class="toggle" onclick="toggleMenu();"></div>
         
         <ul class="menu">
             
-            <li><a href="#about"  onclick="toggleMenu();"><span class="links">ABOUT</span></a></li>
-            <li><a href="#register"  onclick="toggleMenu();"><span class="links">REGISTER</span></a></li>
-            <li><a href="#timeline"  onclick="toggleMenu();"><span class="links">TIMELINE</span></a></li>
-            <li><a href="#project"  onclick="toggleMenu();"><span class="links">PROJECTS</span></a></li>
-            <li><a href="#team"  onclick="toggleMenu();"><span class="links">TEAM</span></a></li>
-            <li><a href="#contact"  onclick="toggleMenu();"><span class="links">CONTACT US</span></a></li>
+            <li><a href="#about"  onclick="toggleMenu();"><span class="links"><b>ABOUT</b></span></a></li>
+            <li><a href="#register"  onclick="toggleMenu();"><span class="links"><b>REGISTER</b></span></a></li>
+            <li><a href="#timeline"  onclick="toggleMenu();"><span class="links"><b>TIMELINE</b></span></a></li>
+            <li><a href="#project"  onclick="toggleMenu();"><span class="links"><b>PROJECTS</b></span></a></li>
+            <li><a href="#team"  onclick="toggleMenu();"><span class="links"><b>TEAM</b></span></a></li>
+            <li><a href="#contact"  onclick="toggleMenu();"><span class="links"><b>CONTACT US</b></span></a></li>
             <li class="dropdown">
-                <a href="#" class="dropbtn links" >MORE<span class="fas fa-angle-down nav-link-arrow ml-2"></span></a>
+                <a href="#" class="dropbtn links" ><b>MORE</b><span class="fas fa-angle-down nav-link-arrow ml-2"></span></a>
                 <ul class="dropdown-content">
-                  <a href="#">Leaderboard</a>
-                  <a href="#faq">FAQ</a>
-                  <a href="#">Code of Conduct</a>
+                  <a href="#"><b>Leaderboard</b></a>
+                  <a href="#faq"><b>FAQ</b></a>
+                  <a href="#"><b>Code of Conduct</b></a>
                 </ul>
             </li> 
         </ul>
@@ -105,6 +131,7 @@
         </section>
         <!-- End of section -->
         <!-- Section -->
+        
         
             <div class="container">
                 <div class="d-flex justify-content-between pb-1">
@@ -232,6 +259,302 @@
 
 
         <!--REGISTER END-->
+
+
+         <!-- TIMELINE START -->
+
+         <div class="section-header pb-5 overflow-hidden text-center" id="timeline">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="alert shadow-inset ">
+                                
+                                    <h1><strong>Timeline</strong></h1>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+<div class="timeline-wrapper" id="timeliner">
+  <ul class="timeline">
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                  <span style="color:red"><b>December 25</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="JWoC Program Announced"><b>JWoC Program Announced</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+      
+      
+        <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                  <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>December 25</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Mentor & Mentee Registration"><b>Mentor & Mentee Registration</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                  <span style="color:red"><b>January 15</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Mentor Registration ends"><b>Mentor Registration ends</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                  <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>January 17</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Projects Announced"><b>Projects Announced</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                  <span style="color:red"><b>January 18</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Community Bonding Starts"><b>Community Bonding Starts</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+
+
+        <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                  <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>January 20</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Community Bonding Ends"><b>Community Bonding Ends</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                  <span style="color:red"><b>January 21</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Coding Period Starts"><b>Coding Period Starts</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+
+
+         <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                  <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>February 9</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Phase I Completion"><b>Phase I Completion</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-direction-l">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-right">
+                 
+                 <span style="color:red"><b>February 19</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time timeline-neumorphism-card" style="color:black"><b>2020</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-right">
+              
+                <div class="timeline-tag-wrapper">
+                  
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Phase II Ends - JWoc Ends"><b>Phase II Ends - JWoc Ends</b></a></span>
+                  
+                </div>
+             
+            </div>
+
+
+
+          </div>
+        </li>
+
+
+         <li>
+          <div class="timeline-direction-r">
+            <div class="timeline-flag-wrapper">
+              <span class="timeline-hexagon"></span>
+              <span class="timeline-flag timeline-neumorphism-button" data-aos="zoom-in-left">
+                
+                 <span style="color:black"><b>2020</b></span>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time timeline-neumorphism-card" style="color:red"><b>February 24</b></span>
+              </span>
+            </div>
+            <div class="desc timeline-neumorphism-card" data-aos="zoom-in-left">
+              
+                <div class="timeline-tag-wrapper">
+                 
+                    <span class="tag timeline-neumorphism-card" style="color: black"><a class="link link--kukuri" href="#" data-letters="Results Announced"><b>Results Announced</b></a></span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+
+
+  </ul>
+</div>
+
+
+
+
+ <!-- End of TIMELINE -->
+
+
+
+
+
 
 
         <!--PROJECT HIGHLIGHTS-->
