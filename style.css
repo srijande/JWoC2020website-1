@@ -104,6 +104,32 @@ body {
     background-color: #e6e7ee;
 }
 
+#typing_container {
+    margin: 50px;
+    height:40px;
+    
+	text-align: center;
+}
+
+
+#typing_text {
+	display: inline-block;
+    font-size: 21px;
+    font-weight: 500;
+    border-right: 3px solid var(--default);
+    border-right-color: var(--default);
+}
+
+#typing_text_fixed {
+	display: inline-block;
+	font-size: 21px;
+    margin-right: 7px;
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+
+
 [tabindex="-1"]:focus {
     outline: 0 !important;
 }
@@ -798,6 +824,9 @@ body {
 
 }
 
+
+  
+
 hr {
     box-sizing: content-box;
     height: 0;
@@ -1151,6 +1180,38 @@ h5, .h5 {
 
 h6, .h6 {
     font-size: 1rem;
+}
+
+.fade_in{
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+}
+
+.shrink_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 110px; margin:auto; font-weight: 300;
+    letter-spacing: 2rem;
+    -webkit-animation: shrink 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: shrink 2s; /* Firefox < 16 */
+     -ms-animation: shrink 2s; /* Internet Explorer */
+      -o-animation: shrink 2s; /* Opera < 12.1 */
+         animation: shrink 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes shrink{
+    from {letter-spacing: 6rem; }
+    to {letter-spacing: 2rem;}
 }
 
 .lead {

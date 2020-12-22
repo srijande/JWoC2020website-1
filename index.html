@@ -64,23 +64,23 @@ div {text-align: center;}
 
 <body>
     <header class="head" >
-        <a href="index.html" class="logo"><span class="logo-hover"><span class="jgec"><strong>JGEC</strong></span> Winter Of Code</span></a>
+        <a href="index.html" class="logo"><span class="logo-hover"><span class="jgec" style="font-weight: 600;">JGEC</span>Winter Of Code</span></a>
         <div class="toggle" onclick="toggleMenu();"></div>
         
-        <ul class="menu">
+        <ul class="menu" style="margin-bottom: 0px;">
             
-            <li><a href="#about"  onclick="toggleMenu();"><span class="links"><b>ABOUT</b></span></a></li>
-            <li><a href="#register"  onclick="toggleMenu();"><span class="links"><b>REGISTER</b></span></a></li>
-            <li><a href="#timeline"  onclick="toggleMenu();"><span class="links"><b>TIMELINE</b></span></a></li>
-            <li><a href="#project"  onclick="toggleMenu();"><span class="links"><b>PROJECTS</b></span></a></li>
-            <li><a href="#team"  onclick="toggleMenu();"><span class="links"><b>TEAM</b></span></a></li>
-            <li><a href="#contact"  onclick="toggleMenu();"><span class="links"><b>CONTACT US</b></span></a></li>
+            <li><a href="#about"  onclick="toggleMenu();" ><span class="links">ABOUT</span></a></li>
+            <li><a href="#register"  onclick="toggleMenu();"><span class="links">REGISTER</span></a></li>
+            <li><a href="#timeline"  onclick="toggleMenu();"><span class="links">TIMELINE</span></a></li>
+            <li><a href="#project"  onclick="toggleMenu();"><span class="links">PROJECTS</span></a></li>
+            <li><a href="#team"  onclick="toggleMenu();"><span class="links">TEAM</span></a></li>
+            <li><a href="#contact"  onclick="toggleMenu();"><span class="links">CONTACT US</span></a></li>
             <li class="dropdown">
                 <a href="#" class="dropbtn links" ><b>MORE</b><span class="fas fa-angle-down nav-link-arrow ml-2"></span></a>
                 <ul class="dropdown-content">
-                  <a href="#"><b>Leaderboard</b></a>
-                  <a href="#faq"><b>FAQ</b></a>
-                  <a href="#"><b>Code of Conduct</b></a>
+                  <a href="#">Leaderboard</a>
+                  <a href="#faq">FAQ</a>
+                  <a href="./assets/JWoC_Code_of_Conduct.pdf" download="JWoC_Code_of_Conduct" target="blank">Code of Conduct</a>
                 </ul>
             </li> 
         </ul>
@@ -93,15 +93,19 @@ div {text-align: center;}
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-8 text-center">
+                        <div class="shrink_in">J.W.O.C</div>
                         <h1 class="h1 mb-4">JGEC WINTER OF CODE</h1>
-                        <p class="lead mb-5">
+                        <p class="lead mb-5 fade_in">
                             JWoC ( JGEC Winter of Code) is a program organised by Developers JGEC in collaboration with Sristi 2020 which helps students to plunge into Open Source contribution and get the realm of Software Development.
                         </p>
+                        <div id="typing_container">
+                            <div id="typing_text_fixed">$</div><div id="typing_text"></div>
+                        </div>
                         <div class="d-flex justify-content-center">
-                            <a class="btn btn-primary p-2" href="./assets/JWoC_Mentor.pdf" download="JWoC_Mentor_Manual" target="blank"><span class="fas fa-book-reader mr-2"></span>Student Manual</a>
+                            <a class="btn btn-primary p-2" href="./assets/JWoC_Mentor.pdf" download="JWoC_Mentor_Manual" target="blank"><span class="fas fa-book-reader mr-2"></span>Mentor Manual</a>
 
 
-                            <a class="btn btn-primary ml-3 p-2" href="./assets/JWoC_Student.pdf" download="JWoC_Student_Manual" target="blank"><span class="fas fa-book-reader mr-2"></span>Mentor Manual</a>
+                            <a class="btn btn-primary ml-3 p-2" href="./assets/JWoC_Student.pdf" download="JWoC_Student_Manual" target="blank"><span class="fas fa-book-reader mr-2"></span>Student Manual</a>
                         </div>
                     </div>
                 </div>
@@ -121,8 +125,7 @@ div {text-align: center;}
                     <div class="col-md-6 col-xl-5 text-center text-md-left">
                         <h2 class="h3 mb-4">JWoC-HOW IT WORKS?</h2>
                         <p class="lead">Participants (restrained to 1st and 2nd year undergraduate students) participate for the program. Mentors willing to Open Source their projects in JWoC submit their proposals. The best projects are selected for this program. Students get acquainted about the projects from the mentors during the Community Bonding Period. Students work on these projects during the coding phase. At the end of the coding period, the winners of the programs are announced on the basis of their contribution in terms of quantity as well as quality.</p>
-                        <p class="lead">For more information on the event download the student or mentor manual respectively.</p>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-left">
                             <a class="btn btn-primary ml-3 p-2 text-center" href="./assets/JWoC_Code_of_Conduct.pdf" download="JWoC_Code_of_Conduct" target="blank"><span class="fas fa-book-reader mr-2"></span>Code of Conduct</a>
                         </div>
                     </div>
@@ -213,7 +216,7 @@ div {text-align: center;}
                         <div class="col-md-9">
                             <h2 class="mb-3">Become a Mentee</h2>
                             <p class="mb-4">
-                                if you are new to open source world or have some experience in open source and want to contribute in some amazing open source projects register as a mentee.
+                                If you are new to open source world or have some experience in open source and want to contribute in some amazing open source projects register as a mentee.
                             </p>
                             <a href="#" class="btn btn-primary">
                                 <span class="mr-1">
@@ -236,7 +239,7 @@ div {text-align: center;}
                         <div class="col-md-9">
                             <h2 class="mb-3">Become a Mentor</h2>
                             <p class="mb-4">
-                              if you have some unique projects which you are willing to add some features or complete it by open sourcing them , we encourage you to apply for mentorship in our program.
+                              If you have some unique projects which you are willing to add some features or complete it by open sourcing them , we encourage you to apply for mentorship in our program.
                             </p>
                             <a href="#" class="btn btn-primary">
                                 <span class="mr-1">
@@ -841,13 +844,19 @@ div {text-align: center;}
         
    
             <!-- Title -->
-                    <div class="row" id="faq">
-                        <div class="col text-center">
-                            <div class="my-5">
-                                <span class="h5 text-center" ><strong>Frequently asked questions</strong></span>
+            <div class="section-header pb-6 overflow-hidden text-center " id="team">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8">
+                            <div class="alert shadow-inset ">
+                                    
+                                        <h1><strong>Frequently Asked Questions</strong></h1>
+                               
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-10 col-lg-8">
                             <!--Accordion-->
@@ -1038,6 +1047,68 @@ div {text-align: center;}
     <script src="contact_min.js"></script>
     <script src="contact_bootstrap.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    
+    <script type="text/javascript">
+
+        // List of sentences
+        var _CONTENT = [ "git add experience", "git commit -m time", "git push origin exposure" ];
+        
+        // Current sentence being processed
+        var _PART = 0;
+        
+        // Character number of the current sentence being processed 
+        var _PART_INDEX = 0;
+        
+        // Holds the handle returned from setInterval
+        var _INTERVAL_VAL;
+        
+        // Element that holds the text
+        var _ELEMENT = document.querySelector("#typing_text");
+        
+        // Implements typing effect
+        function Type() { 
+            var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
+            _ELEMENT.innerHTML = text;
+            _PART_INDEX++;
+        
+            // If full sentence has been displayed then start to delete the sentence after some time
+            if(text === _CONTENT[_PART]) {
+                clearInterval(_INTERVAL_VAL);
+                setTimeout(function() {
+                    _INTERVAL_VAL = setInterval(Delete, 50);
+                }, 1000);
+            }
+        }
+        
+        // Implements deleting effect
+        function Delete() {
+            var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
+            _ELEMENT.innerHTML = text;
+            _PART_INDEX--;
+        
+            // If sentence has been deleted then start to display the next sentence
+            if(text === '') {
+                clearInterval(_INTERVAL_VAL);
+        
+                // If last sentence then display the first one, else move to the next
+                if(_PART == (_CONTENT.length - 1))
+                    _PART = 0;
+                else
+                    _PART++;
+                _PART_INDEX = 0;
+        
+                // Start to display the next sentence after some time
+                setTimeout(function() {
+                    _INTERVAL_VAL = setInterval(Type, 100);
+                }, 200);
+            }
+        }
+        
+        // Start the typing effect on load
+        _INTERVAL_VAL = setInterval(Type, 100);
+    
+    </script>
 </body>
 
 </html>
