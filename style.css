@@ -103,7 +103,6 @@ body {
     text-align: left;
     background-color: #e6e7ee;
 }
-
 #typing_container {
     margin: 50px;
     height:40px;
@@ -127,15 +126,9 @@ body {
     font-weight: 600;
     color: var(--secondary);
 }
-
-
-
 [tabindex="-1"]:focus {
     outline: 0 !important;
 }
-
-
-  
 
 hr {
     box-sizing: content-box;
